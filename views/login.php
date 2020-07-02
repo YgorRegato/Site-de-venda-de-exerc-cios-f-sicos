@@ -3,27 +3,13 @@
 <html lang="pt-br">
 <html>
 
-<style type="text/css" media="screen">
-	@media (min-width: 1200px) {
-	.bg  {
-		background-image:  url(<?php echo DIRIMG . '../image/Fundo-Login.png'; ?>) ;
-		background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100;height: auto;
-	}
-}
-
-</style>
 
 
-
-<body class="bg img-fluid" >
-	<div class="">
-		
-	</div>
+<body class="bg" >
+	
 	<div class="container">
 		<div class="row justify-content-center div-login">
-			<div class="col-md-9 col-lg-12 col-xl-10 col-9">
+			<div class="col-md-9 col-lg-12 col-xl-10" >
 				<div class="card shadow-lg o-hidden border-0 my-5">
 					<div class="card-body p-0">
 						<div class="row">

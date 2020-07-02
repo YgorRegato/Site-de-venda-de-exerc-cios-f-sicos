@@ -745,23 +745,39 @@ Assine a nossa newsletter e receba as últimas notícias
           .</p>
 
         <form class="input-grey mb-5" action="" method="post" target="_blank">
-          <div class="form-row">
-            <div class="col-md-4 ml-auto">
-              <div class="input-group input-group-lg z-depth-1">
-                <div class="input-group-prepend" style="margin-button: 10px;">
-                  <span class="input-group-text rgba-black-light border-0"><i class="fa fa-envelope white-text"></i></span>
-                </div>
+           <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
 
-                <input type="email" name="EMAIL" class="form-control form-control-lg rgba-white-light white-text border-0 z-depth-0" placeholder="Email">
-              </div>
-            </div>
 
-            <div class="mr-auto col-auto  espacamento" style="margin-top: 2px;">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
 
-              <button class="btn btn-block botao-duvidas">Se inscrever</button>
+        <!--Grid column-->
+        <div class="col-md-6 text-center">
+
+          
+
+          <div class="input-group mb-4">
+            <input type="email" class="form-control" placeholder="Digite seu E-mail" aria-label="Digite seu E-mail"
+              aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-md btn-warning m-0 px-3 py-2 z-depth-0 waves-effect rounded" type="submit"
+                id="button-addon2">Submit</button>
             </div>
           </div>
+
+          
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
         </form>
+
 
       </div>
     </div>

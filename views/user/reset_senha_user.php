@@ -5,18 +5,11 @@
 
 
 
-<style type="text/css" media="screen">
 
-    .bg  {
-        background-image:  url(<?php echo DIRIMG . '../image/Fundo-Login.png'; ?>) ;
-    }
-   
-
-</style>
 
 
 <body class="bg img-fluid  " >
-    <div class="container ">
+    <div class="container "style="padding-top: 5%;">
         <div class="row justify-content-center div-reset-user" >
             <div class="col-md-9 col-lg-12 col-xl-10 ">
                 <div class="card shadow-lg o-hidden border-0 my-5">
