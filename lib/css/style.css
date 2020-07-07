@@ -12,6 +12,17 @@ body {
 .navbar {
     padding: .10rem, .1rem;
 }
+/*RESPOSIVIDADE FONTE NAVBAR*/
+    @media (max-width: 1200px)  {
+        .container-navbar img 
+        {
+        width: 3em !important;
+        }
+        .menu a {
+    
+    font-size: 0.8rem !important;
+    }
+}
 
 .container-navbar {
     display: flex;
@@ -85,10 +96,21 @@ body {
 }
 
 .cor-dropdown {
-    background-color: rgba(240, 194, 10, 0.9);
+    background-color: rgba(54, 99, 154, 0.9);
     -webkit-transition: all .7s;
     transition: all .7s;
 }
+
+.dropdown-menu{
+  background-color: rgba(54, 99, 154, 0.9);
+}
+
+.dropdown-item:hover {
+  background-color: rgba(54, 99, 154, 0.9);
+}
+
+
+
 
 
 /*CAROUSEL*/
@@ -2568,18 +2590,19 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    .texto-personal {
+    .sobre_personal  {
         margin-bottom: 200px !important;
-        height: 800px!important;
-        background-color: black;
+        height: 550px!important;
+        
     }
 }
 
 @media only screen and (max-width: 320px) {
-    .texto-personal {
-        margin-bottom: 200px !important;
-        height: 900px!important;
-        background-color: black;
+    .sobre_personal {
+        margin-top: -80px;
+        margin-bottom: 0px !important;
+        height: 800px!important;
+        
     }
 }
 
@@ -2587,39 +2610,41 @@ body {
     height: 600px;
 }
 
-@media (max-width: 360px) {
+
+/*320 px*/
+@media (max-width: 320px) {
     .parallax-divider1 {
-        height: 400px!important;
+        height: 480px!important;
     }
-}
 
-@media (max-width: 360px) {
+    @media (max-width: 320px) {
     .parallax-divider {
-        height: 400px!important;
+        height: 480px!important;
     }
-}
 
-@media (max-width: 600px) {
-    .parallax-divider1 {
-        height: 380px!important;
-    }
-}
+/* 600 px */
 
-@media (max-width: 600px) {
-    .parallax-divider {
-        height: 370px!important;
-    }
-}
+
+
+        /*---------------------*/
+
+
 
 @media (max-width: 600px) {
     .texto_descricao_marca1 {
-        margin-top: 0;
-    }
+        height: 100px;    }
 }
 
 @media (max-width: 600px) {
     .texto_descricao_marca {
         margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        bottom: 0rem;
+        padding-bottom: 0px;
     }
 }
 
@@ -2649,6 +2674,8 @@ body {
     font-size: 1.5em;
     margin-top: 1em;
 }
+
+
 
 
 /*# sourceMappingURL=style.css.map */

@@ -125,7 +125,7 @@
 			</div>
 		</div>
 	
-	<div class="parallax1 parallax-divider1" style="margin-bottom: -47px;"></div>
+	<div class="parallax1 parallax-divider1" style="margin-bottom: 0px;"></div>
 	</div>
 
 	<!--DEPOIMENTOS-->
