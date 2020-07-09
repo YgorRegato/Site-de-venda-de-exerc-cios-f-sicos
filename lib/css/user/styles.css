@@ -1,38 +1,65 @@
-body,
-html {
-    height: 100%;
-    
+body, html {
+  height: auto;
 }
 
-.bg {
-    /* The image used */
-    /* Full height */
-    height: 100% !important;
-   
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@media (min-width: 600px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
+
+  /* tamanho da imagem*/
+      height: 100%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
+}
+@media (min-width: 320px) and (max-width: 375px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
 
+  /* tamanho da imagem*/
+      height: 180%;
 
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
 
+@media (min-width: 375px) and (max-width: 419px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
 
+  /* tamanho da imagem*/
+      height: 100%;
 
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
 
+@media (min-width: 420px) and (max-width: 599px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
 
+  /* tamanho da imagem*/
+      height: 125%;
 
-
-
-
-
-
-
-
-
-
-
-
-
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+}
 

@@ -3,19 +3,33 @@
 <?php echo \Classes\ClassLayout::setHeaderUser('Cadastro', "Faça seu cadastro", ""); ?>
 
 
+<style type="text/css" media="screen">
+ 
+    
+</style>
+<link rel="stylesheet" href="<?php echo DIRCSS . '../lib/css/bg.css'; ?>">
 
 
-
-<body class="bg ">
+<body class="">
+    <div class="bg">
     <div class="container " style="padding-top: 4%;">
         <div class="card shadow-lg  o-hidden border-0 my-5" >
             <div class="card-body p-0 ">
                 <div class="row ">
                     <div class="col-lg-5 d-none d-lg-flex" >
-                        <div class="flex-grow-1 bg-register-image" style="background-image: url(<?php echo DIRIMG . '../image/dogs/image1.jpeg'; ?>);"></div>
+
+                        <div class="flex-grow-1 bg-register-image" style="background-image: url(<?php echo DIRIMG . '../image/yoga-login3.jpg'; ?>);"></div>
+
                     </div>
                     <div class="col-lg-7">
+                        <div class="text-right pt-2 pr-4">
+                                <a href="index" title=""><i class="far fa-times-circle fa-3x"></i></a>
+                                <br>
+                                <a href="index" title="" class="pr-2">Sair</a>
+                            </div>
+
                         <div class="p-4">
+                            
                             <div class="text-center">
                                 
                                 <h4 class="text-dark mb-4">Crie sua Conta!</h4>
@@ -96,12 +110,13 @@
 
                             </form>
                             <div class="text-center"><a class="small" href="user/reset_senha_user">Esqueceu a Senha ?</a></div>
-                            <div class="text-center"><a class="small" href="personal/login">Já tem conta ? Faça Login!</a></div>
+                            <div class="text-center"><a class="small" href="login">Já tem conta ? Faça Login!</a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 <script src='lib/js/zepto.min.js'></script>
 <script src='lib/js/sweetalert.min.js'></script>

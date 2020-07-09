@@ -5,19 +5,27 @@
 
 
 
-<body class="bg" >
-	
-	<div class="container">
+
+<body class="" >
+	<div class="bg">
+		
+
+	<div class="container" style="padding-top: 4%;">
 		<div class="row justify-content-center div-login">
 			<div class="col-md-9 col-lg-12 col-xl-10" >
 				<div class="card shadow-lg o-hidden border-0 my-5">
 					<div class="card-body p-0">
 						<div class="row">
 							<div class="col-lg-6 d-none d-lg-flex">
-								<div class="flex-grow-1 bg-login-image " style="background-image: url(<?php echo DIRIMG . '../image/dogs/image1.jpeg'; ?>); "></div>
+								<div class="flex-grow-1 bg-login-image " style="background-image: url(<?php echo DIRIMG . '../image/yoga-login4.jpg'; ?>); "></div>
 								
 							</div>
 							<div class="col-lg-6">
+								 <div class="text-right pt-2 pr-4">
+                                <a href="index" title=""><i class="far fa-times-circle fa-3x"></i></a>
+                                <br>
+                                <a href="index" title="" class="pr-2">Sair</a>
+                            </div>
 								<div class="p-5">
 									<div class="text-center">
 										<h4 class="text-dark mb-4">Olá, Bem-vindo!</h4>
@@ -66,6 +74,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 
 
