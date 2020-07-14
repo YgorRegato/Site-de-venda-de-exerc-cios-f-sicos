@@ -303,7 +303,7 @@ $p = $planos->getAllPlans();
 							</div>
 
 
-							<h2 class="font-weight-bold my-4 color-text-plan">R$<?php echo number_format($plano['preco'], 2, ",", "") ?></h2>
+							<h2 class="font-weight-bold my-4 color-text-plan">€<?php echo number_format($plano['preco'], 2, ",", "") ?></h2>
 							<p class="color-text-plan"><?php echo $plano['descricaoIndex']; ?></p>
 							<a class="btn color-buttom btn-rounded color-text-buttom" href='plano?p=<?php echo $plano['id'] ?>'>Saiba mais</a>
 
@@ -760,27 +760,22 @@ $p = $planos->getAllPlans();
 
 
 				<form class="input-grey mb-5" action="" method="post" target="_blank">
-					<div class="form-row">
-						<div class="col-md-4 ml-auto">
-							<div class="input-group input-group-lg z-depth-1">
-								<div class="input-group-prepend">
-									<span class="input-group-text rgba-black-light border-0"><i
-											class="fa fa-envelope white-text"></i></span>
-								</div>
+          <div class="form-row">
+            <div class="col-md-4 ml-auto">
+              <div class="input-group input-group-lg z-depth-1">
+                <div class="input-group-prepend">
+                  <span class="input-group-text rgba-white-light border-0"><i class="fa fa-envelope white-text"></i></span>
+                </div>
+                <input type="email" name="EMAIL" class="form-control form-control-lg rgba-white-light white-text border-0 z-depth-0" placeholder="Email Address">
+              </div>
+            </div>
 
-								<input type="email" name="EMAIL"
-								       class="form-control form-control-lg rgba-white-light white-text border-0 z-depth-0"
-								       placeholder="Email">
-							</div>
-						</div>
+            <div class="col-md-2 mr-auto">
+              <button class="btn btn-block" style="background-color: #EFC109; color: white;">Subscribe</button>
+            </div>
+          </div>
+        </form>
 
-
-						<div class=" mr-auto">
-
-							<button class="btn btn-block botao-duvidas">Se inscrever</button>
-						</div>
-					</div>
-				</form>
 
 			</div>
 		</div>

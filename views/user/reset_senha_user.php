@@ -27,8 +27,7 @@
                                  <div class="text-right pt-2 pr-4">
                                 <a href="../index" title=""><i class="far fa-times-circle fa-3x"></i></a>
                                 <br>
-                                <a href="../" title="" class="pr-2">Sair</a>
-                            </div>
+                                
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h4 class="text-dark mb-2">Esqueceu a Senha ?</h4>

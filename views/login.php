@@ -1,4 +1,13 @@
-<?php echo \Classes\ClassLayout::setHeaderUser('Login', "Faça seu Login", ""); ?>
+
+<?php
+session_start();
+if(isset($_SESSION['login'])){
+	header("Location: " . DIRPAGE . "dashboard/");
+}
+echo \Classes\ClassLayout::setHeaderUser('Login', "Faça seu Login", "");
+
+?>
+
 <!doctype html>
 <html lang="pt-br">
 <html>
@@ -24,7 +33,7 @@
 								 <div class="text-right pt-2 pr-4">
                                 <a href="index" title=""><i class="far fa-times-circle fa-3x"></i></a>
                                 <br>
-                                <a href="index" title="" class="pr-2">Sair</a>
+                               
                             </div>
 								<div class="p-5">
 									<div class="text-center">
