@@ -1,26 +1,28 @@
 <?php echo \Classes\ClassLayout::setHeaderUser('Cadastro', "Faça seu cadastro", ""); ?>
 
 
-<style type="text/css" media="screen">
-    @media (min-width: 1200px) {
-        .bg {
-            background-image: url(<?php echo DIRIMG . '../image/Fundo-Login.png'; ?>);
-        }
-    }
-</style>
 
 
-<body class="bg ">
-<div class="container ">
-    <div class="card shadow-lg  o-hidden border-0 div-cadastro  ">
+
+<body class="">
+    <div class="bg">
+        
+   
+<div class="container " style="padding-top: 9%;">
+    <div class="card shadow-lg  o-hidden border-0 div-cadastro   ">
         <div class="card-body p-0 o">
             <div class="row ">
                 <div class="col-lg-5 d-none d-lg-flex ">
                     <div class="flex-grow-1 bg-register-image"
-                         style="background-image: url(<?php echo DIRIMG . '../image/dogs/image1.jpeg'; ?>);"></div>
+                         style="background-image: url(<?php echo DIRIMG . '../image/yoga-login2.jpg'; ?>);"></div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="p-2">
+                <div class="col-lg-7 pt-2 pb-4">
+                     <div class="text-right pt-1 pr-4">
+                                <a href="index" title=""><i class="far fa-times-circle fa-3x"></i></a>
+                                <br>
+                               
+                            </div>
+                    <div class="p-1">
                         <div class="text-center">
 
                             <h4 class="text-dark mb-4">Crie sua Conta!</h4>
@@ -110,6 +112,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 <script src='lib/js/zepto.min.js'></script>
 <script src='lib/js/sweetalert.min.js'></script>
