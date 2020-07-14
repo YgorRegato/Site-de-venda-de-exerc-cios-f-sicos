@@ -20,7 +20,7 @@ if(!isset($_GET['id']) && !isset($_GET['idT'])){
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
-<body class="bg">
+<body>
 
 <div class="container">
     <div class="img-compra-efetuada">
@@ -49,7 +49,7 @@ if(!isset($_GET['id']) && !isset($_GET['idT'])){
 
     async function demo() {
         await sleep(10000);
-        window.location.href = '/personal/dashboard'
+        window.location.href = '/TreinoDoZe/dashboard'
     }
 
     demo();

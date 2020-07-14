@@ -425,13 +425,8 @@ class ClassLayout
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
 	<title>" . NAME . " - " . "Carrinho</title>
   <meta name='theme-color' content='#234C80'>
-	<link rel='stylesheet' href='" . DIRCSS . "user/bootstrap.min.css?h=504792f7254b7c7ba831bdd93d286139'>
-	<link rel='stylesheet' href='" . DIRCSS . "user/Profile-Edit-Form-1.css'>
-	<link rel='stylesheet' href='" . DIRCSS . "user/Profile-Edit-Form.css'>
-	<link rel='stylesheet' href='" . DIRCSS . "user/styles.css'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cookie'>
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.1/css/all.css'>
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous'>
 </head>
   
 
@@ -510,8 +505,6 @@ class ClassLayout
                 <a href=\"logout\" class=\"nav-link\">Sair</a>
             </li>
         </ul>
-
-        <!-- SEARCH FORM -->
         
 
         
@@ -522,7 +515,7 @@ class ClassLayout
     <aside class=\"main-sidebar sidebar-dark-primary elevation-4\">
         <!-- Brand Logo -->
         <a href=\"/dashboard\" class=\"brand-link\">
-            <img src=\"" . DIRLTE . "dist/img/AdminLTELogo.png\" alt=\"AdminLTE Logo\"
+            <img src=\"" . DIRIMG . "logo-dashboard.png\" alt=\"AdminLTE Logo\"
                  class=\"brand-image img-circle elevation-3\"
                  style=\"opacity: .8\">
             <span class=\"brand-text font-weight-light\">" . NAME . "</span>
@@ -533,7 +526,7 @@ class ClassLayout
             <!-- Sidebar user panel (optional) -->
             <div class=\"user-panel mt-3 pb-3 mb-3 d-flex\">
                 <div class=\"image\">
-                    <img src=\"" . DIRLTE . "dist/img/user2-160x160.jpg\" class=\"img-circle elevation-2\"
+                    <img src=\"" . DIRIMG . "no-photo.jpg\" class=\"img-circle elevation-2\"
                          alt=\"User Image\">
                 </div>
                 <div class=\"info\">
@@ -557,7 +550,7 @@ class ClassLayout
                         </a>
                         <ul class=\"nav nav-treeview\">
                             <li class=\"nav-item\">
-                                <a href=\"" . DIRPAGE . "dashboard\" class=\"nav-link \">
+                                <a href=\"" . DIRPAGE . "dashboard/status\" class=\"nav-link \">
                                     <i class=\"far fa-circle nav-icon\"></i>
                                     <p>Home</p>
                                 </a>
@@ -568,30 +561,26 @@ class ClassLayout
                                     <p>Lista de Clientes</p>
                                 </a>
                             </li>
-                            <li class=\"nav-item\">
-                                <a href=\"" . DIRLTE . "index3.html\" class=\"nav-link\">
-                                    <i class=\"far fa-circle nav-icon\"></i>
-                                    <p>Dashboard v3</p>
-                                </a>
-                            </li>
                         </ul>
                     </li>
 
                     <li class=\"nav-header\">Usuário</li>
+                    
                     <li class=\"nav-item\">
-                        <a href=\"edit-profile.html\" class=\"nav-link\">
+                        <a href=\"" . DIRPAGE . "dashboard\" class=\"nav-link\">
+                            <i class=\"nav-icon fa fa-address-card\"></i>
+                            <p>
+                                Seu plano
+                            </p>
+                        </a>
+                    </li>
+                    
+                    <li class=\"nav-item\">
+                        <a href=\"#\" class=\"nav-link\">
                             <i class=\"nav-icon fa fa-user\"></i>
                             <p>
                                 Perfil
                                 <!--<span class=\"badge badge-info right\">2</span>-->
-                            </p>
-                        </a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a href=\"" . DIRPAGE . "dashboard/plan\" class=\"nav-link\">
-                            <i class=\"nav-icon fa fa-address-card\"></i>
-                            <p>
-                                Seu plano
                             </p>
                         </a>
                     </li>
@@ -666,19 +655,20 @@ class ClassLayout
 												 with font-awesome or any other icon font library -->
                     <li class=\"nav-header\">Usuário</li>
                     <li class=\"nav-item\">
-                        <a href=\"edit-profile.html\" class=\"nav-link\">
+                        <a href=\"" . DIRPAGE . "dashboard\" class=\"nav-link\">
+                            <i class=\"nav-icon fa fa-address-card\"></i>
+                            <p>
+                                Seu plano
+                            </p>
+                        </a>
+                    </li>
+                    
+                    <li class=\"nav-item\">
+                        <a href=\"#\" class=\"nav-link\">
                             <i class=\"nav-icon fa fa-user\"></i>
                             <p>
                                 Perfil
                                 <!--<span class=\"badge badge-info right\">2</span>-->
-                            </p>
-                        </a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a href=\"" . DIRPAGE . "dashboard/plan\" class=\"nav-link\">
-                            <i class=\"nav-icon fa fa-address-card\"></i>
-                            <p>
-                                Seu plano
                             </p>
                         </a>
                     </li>
@@ -753,6 +743,26 @@ class ClassLayout
 <script src=\"" . DIRLTE . "dist/js/pages/dashboard.js\"></script>
 <!-- AdminLTE for demo purposes -->
 <script src=\"" . DIRLTE . "dist/js/demo.js\"></script>
+
+<!-- Bootstrap -->
+<script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\" integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\" crossorigin=\"anonymous\"></script>
+<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>
+<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
+<!-- Modal -->
+<script>
+    $('#modalCliente').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget)
+        var idUser = button.data('iduser')
+        var name = button.data('name')
+        var plan = button.data('plan')
+        
+        var modal = $(this)
+        modal.find('#idUser').val(idUser)
+        modal.find('#modalTitle').text('Detalhes do usuário ' + name)
+        modal.find('#nameUser').val(name)
+        modal.find('#plan').val(plan)
+    })
+</script>
 
 <!-- Datatables -->
 <script src=\"https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js\"></script>
