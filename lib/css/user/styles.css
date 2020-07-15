@@ -1,165 +1,65 @@
-body,
-html {
-    height: 100%;
-    overflow-y: hidden;
+body, html {
+  height: auto;
 }
 
-.bg {
-    /* The image used */
-    /* Full height */
-    height: 100% !important;
-   
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@media (min-width: 600px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
 
-}
+  /* tamanho da imagem*/
+      height: 100%;
 
-@media (min-width: 1200px) {
-    .div-login {
-        margin-top: 10vh;
-    }
-}
-@media (min-width: 1200px) {
-    .div-login {
-        margin-top: 10vh;
-    }
-}
-
-
-
-
-
-
-
-
-@media (min-width: 900px) {
-    .div-login {
-        margin-top: -26px;
-        overflow-y: hidden !important;
-    }
-}
-
-@media (min-width: 991px) and (min-height: 768px) {
-    .div-login{
-        margin-top: 50px !important;
-    
-    }
-}
-@media (min-width: 900px) and (min-height: 768px) {
-    .div-login{
-        margin-top: 50px !important;
-    
-    }
-}
-@media (min-width: 576px) and (min-height: 768px) {
-    .div-login{
-        margin-top: 50px !important;
-    
-    }
-}
-
-
-
-
-
-@media (min-width: 1200px)  {
-    .div-reset-user{
-        margin-top: -100px !important;
-    
-    }
-}
-
-
-@media (min-width: 900px) {
-    .div-reset-user {
-        margin-top: 45px;
-      
-    }
-}
-
-@media (min-width: 991px)  {
-    .div-reset-user{
-        margin-top: 100px !important;
-    
-    }
-}
-@media (min-width: 900px)  {
-    .div-reset-user{
-        margin-top: 50px !important;
-    
-    }
-}
-@media (min-width: 576px)  {
-    .div-reset-user{
-        margin-top: 50px !important;
-    
-    }
-}
-
-
-
-@media (min-width: 1200px) and (min-height: 625px)  {
-    .div-cadastro{
-        margin-top: 15px !important;
-    
-    }
-}
-
-@media (min-width: 900px) {
-    .div-cadastro {
-        margin-top: -26px;
-        overflow-y: hidden !important;
-    }
-}
-
-@media (min-width: 991px) and (min-height: 768px) {
-    .div-cadastro{
-        margin-top: 50px !important;
-    
-    }
-}
-@media (min-width: 900px) and (min-height: 768px) {
-    .div-cadastro{
-        margin-top: 50px !important;
-    
-    }
-}
-@media (min-width: 576px) and (min-height: 768px) {
-    .div-cadastro{
-        margin-top: 50px !important;
-    
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- .background_login {
-    background-image:  url(<?php echo DIRIMG . '../../../image/Fundo-Login.svg'; ?>) ;
-    background-repeat: no-repeat;
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
-  }
 
-@media (min-width: 1200px) {
-  .background_login  {
-    background-image:  url(<?php echo DIRIMG . '../../../image/Fundo-Login.svg'; ?>) ;
-    background-repeat: no-repeat;
+}
+}
+@media (min-width: 320px) and (max-width: 375px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
+
+  /* tamanho da imagem*/
+      height: 180%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  }
+}
+}
+
+@media (min-width: 375px) and (max-width: 419px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
+
+  /* tamanho da imagem*/
+      height: 100%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+@media (min-width: 420px) and (max-width: 599px){
+    .bg {
+  /* Imagem de fundo */
+  background-image: url("<?php echo DIRIMG . '../image/gyn-login.jpg'; ?>");
+
+  /* tamanho da imagem*/
+      height: 125%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 }
 

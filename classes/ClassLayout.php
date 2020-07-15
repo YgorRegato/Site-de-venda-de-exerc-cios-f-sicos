@@ -26,7 +26,7 @@ class ClassLayout
         <meta name=apple-mobile-web-app-status-bar-style content=#FCC00A>
         <meta name=msapplication-navbutton-color content=#75b529>
 
-            <a href='https://wa.me/" . WHATSAPP . "?text=Gostaria%20de%20mais%20informações' style='position:fixed;width:60px;height:60px;bottom:100px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+            <a href='https://wa.me/" . WHATSAPP . "?text=Gostaria%20de%20mais%20informações' style='position:fixed;width:60px;height:60px;bottom:100px;right:10px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
         z-index:1000;' target='_blank'>
         <i style='margin-top:16px' class='fab fa-whatsapp'></i>
         </a>
@@ -222,6 +222,7 @@ class ClassLayout
 	<link rel='stylesheet' href='" . DIRCSS . "user/Profile-Edit-Form-1.css'>
 	<link rel='stylesheet' href='" . DIRCSS . "user/Profile-Edit-Form.css'>
 	<link rel='stylesheet' href='" . DIRCSS . "user/styles.css'>
+  <link rel='stylesheet' href='" . DIRCSS . "bg.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cookie'>
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.1/css/all.css'>

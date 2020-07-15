@@ -7,7 +7,23 @@ body {
   color: #5a5a5a; }
 
 .navbar {
+
+    padding: .10rem, .1rem;
+}
+/*RESPOSIVIDADE FONTE NAVBAR*/
+    @media (max-width: 1200px)  {
+        .container-navbar img 
+        {
+        width: 3em !important;
+        }
+        .menu a {
+    
+    font-size: 0.8rem !important;
+    }
+}
+
   padding: .10rem, .1rem; }
+
 
 .container-navbar {
   display: flex;
@@ -65,9 +81,26 @@ body {
     transition: all .7s; }
 
 .cor-dropdown {
+
+    background-color: rgba(54, 99, 154, 0.9);
+    -webkit-transition: all .7s;
+    transition: all .7s;
+}
+
+.dropdown-menu{
+  background-color: rgba(54, 99, 154, 0.9);
+}
+
+.dropdown-item:hover {
+  background-color: rgba(54, 99, 154, 0.9);
+}
+
+
+
   background-color: rgba(240, 194, 10, 0.9);
   -webkit-transition: all .7s;
   transition: all .7s; }
+
 
 /*CAROUSEL*/
 .carousel-inner {
@@ -88,8 +121,14 @@ body {
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
-  z-index: 10; }
+ bottom: 3rem;
+  z-index: 10;
+    
+    z-index: 10;
+}
+
+
+  
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -372,10 +411,27 @@ body {
     .botao-parallax {
       width: 100%; } }
 
-.parallax-divider {
-  height: 350px;
-  width: 100%; }
 
+
+
+@media(max-width: 360px){
+
+.parallax-divider {
+
+    height: 423px;
+    width: 100%;
+}
+}
+
+
+
+@media (max-width: 600px){
+    .parallax-divider {
+
+    width: 100%;
+}
+
+}
 .texto_descricao_marca {
   z-index: 99;
   position: absolute;
@@ -384,18 +440,51 @@ body {
 
 /*Parallax-divider1*/
 .parallax1 {
-  background-image: url("../../image/img-parallax-1.jpg");
-  /* Full height */
-  height: 60%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+
+    background-image: url("../../image/img-parallax-1.jpg");
+    /* Full height */
+    height: 60%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 360px){
 
 .parallax-divider1 {
-  height: 350px;
-  width: 100%; }
+   height: 430px;
+    width: 100%;
+}
+}
+@media (min-width: 360px) and (max-width:375px; ){
+
+.parallax-divider1 {
+   height: 430px;
+    width: 100%;
+}
+}
+
+@media (min-width: 375px) {
+
+.parallax-divider1, .parallax-divider  {
+   height: 400px;
+    width: 100%;
+}
+}
+
+
+@media (min-width: 600px){
+
+.parallax-divider1, .parallax-divider {
+   height: 270px;
+    width: 100%;
+}
+}
+
+
+
+
 
 .texto_descricao_marca1 {
   z-index: 99;
@@ -1994,8 +2083,91 @@ body {
   margin: 0 auto; }
 
 .img-compra-nao-efetuada {
-  width: 40%;
-  margin: 0 auto; }
+
+    width: 40%;
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .sobre_personal  {
+        margin-bottom: 200px !important;
+        height: 550px!important;
+        
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .sobre_personal {
+        margin-top: -80px;
+        margin-bottom: 0px !important;
+        height: 800px!important;
+        
+    }
+}
+
+.sobre_personal {
+    height: 600px;
+}
+
+
+/*320 px*/
+@media (max-width: 320px) {
+    .parallax-divider1 {
+        height: 480px!important;
+    }
+
+    @media (max-width: 320px) {
+    .parallax-divider {
+        height: 480px!important;
+    }
+
+/* 600 px */
+
+
+
+        /*---------------------*/
+
+
+
+@media (max-width: 600px) {
+    .texto_descricao_marca1 {
+        height: 100px;    }
+}
+
+@media (max-width: 600px) {
+    .texto_descricao_marca {
+        margin-top: 0;
+    }
+}
+
+@media (min-width:320px ) and (max-width: 600px) {
+    .carousel-caption {
+        bottom: 0rem;
+        padding-bottom: 0px;
+    }
+}
+@media (min-width: 600px) {
+    .carousel-caption {
+        bottom: 3rem!important;
+        padding-bottom: 0px;
+    }
+}
+
+
+.carousel .carousel-control-next-icon {
+    width: 114px !important;
+    height: 182px !important;
+}
+
+.carousel .carousel-control-prev-icon {
+    width: 114px !important;
+    height: 182px !important;
+}
+
 
 .img-compra-efetuada img,
 .img-compra-nao-efetuada img {
@@ -2069,5 +2241,85 @@ body {
 
 .texto-conta-cancelada p {
   font-size: 1.5em; }
+
+ .bg {
+  /* Imagem de fundo */
+  background: rgb(83,116,157);
+background: -moz-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: -webkit-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53749d",endColorstr="#265083",GradientType=1);
+
+  /* tamanho da imagem*/
+      height: 100%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .bg {
+  /* Imagem de fundo */
+  background: rgb(83,116,157);
+background: -moz-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: -webkit-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53749d",endColorstr="#265083",GradientType=1);
+
+  /* tamanho da imagem*/
+      height: 190%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+
+@media (min-width: 375px) and (max-width: 419px){
+    .bg {
+  /* Imagem de fundo */
+  background: rgb(83,116,157);
+background: -moz-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: -webkit-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53749d",endColorstr="#265083",GradientType=1);
+
+  /* tamanho da imagem*/
+      height: 150%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+
+@media (min-width: 420px) and (max-width: 599px){
+    .bg {
+  /* Imagem de fundo */
+  background: rgb(83,116,157);
+background: -moz-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: -webkit-radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+background: radial-gradient(circle, rgba(83,116,157,1) 42%, rgba(38,80,131,1) 83%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53749d",endColorstr="#265083",GradientType=1);
+
+  /* tamanho da imagem*/
+      height: 125%;
+
+  /* posicionamento da imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+
+    
 
 /*# sourceMappingURL=style.css.map */

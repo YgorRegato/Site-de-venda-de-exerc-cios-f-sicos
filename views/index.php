@@ -67,11 +67,13 @@ $p = $planos->getAllPlans();
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="carousel-control-prev-icon" aria-hidden="true" style="width: 80px !important;
+    height: 80px !important;"></span>
 				<span class="sr-only">Previous</span>
 			</a>
 			<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="carousel-control-next-icon" aria-hidden="true" style="    width: 80px;
+    height: 80px"></span>
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
@@ -83,7 +85,7 @@ $p = $planos->getAllPlans();
 </style>
 <!--SOBRE O PERSONAL-->
 
-<div class="container  sobre_personal pt-5 pb-5" id="personal">
+<div class="container  sobre_personal pt-2  pb-5" id="personal">
 	<div class="row apresentacao">
 
 		<!-- FOTO APRESENTAÇÃO-->
@@ -141,7 +143,7 @@ $p = $planos->getAllPlans();
 		</div>
 	</div>
 
-	<div class="parallax1 parallax-divider1" style="margin-bottom: -47px;"></div>
+	<div class="parallax1 parallax-divider1 pb-5" style="margin-bottom: 0px;"></div>
 </div>
 
 <!--DEPOIMENTOS-->
@@ -219,12 +221,14 @@ $p = $planos->getAllPlans();
 						<!--Controls-->
 						<a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
 						   data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="carousel-control-prev-icon" aria-hidden="true" style="width: 80px !important;
+    height: 80px !important;"></span>
 							<span class="sr-only">Previous</span>
 						</a>
 						<a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
 						   data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon" aria-hidden="true" style="width: 80px !important;
+    height: 80px !important;"></span>
 							<span class="sr-only">Next</span>
 						</a>
 						<!--Controls-->
@@ -585,7 +589,7 @@ $p = $planos->getAllPlans();
 			</button>
 		</div>
 	</div>
-	<div class="parallax parallax-divider" style="margin-bottom: -47px;"></div>
+	<div class="parallax parallax-divider" ></div>
 </div>
 
 <div class="container my-5">
@@ -756,27 +760,22 @@ $p = $planos->getAllPlans();
 
 
 				<form class="input-grey mb-5" action="" method="post" target="_blank">
-					<div class="form-row">
-						<div class="col-md-4 ml-auto">
-							<div class="input-group input-group-lg z-depth-1">
-								<div class="input-group-prepend">
-									<span class="input-group-text rgba-black-light border-0"><i
-											class="fa fa-envelope white-text"></i></span>
-								</div>
+          <div class="form-row">
+            <div class="col-md-4 ml-auto">
+              <div class="input-group input-group-lg z-depth-1">
+                <div class="input-group-prepend">
+                  <span class="input-group-text rgba-white-light border-0"><i class="fa fa-envelope white-text"></i></span>
+                </div>
+                <input type="email" name="EMAIL" class="form-control form-control-lg rgba-white-light white-text border-0 z-depth-0" placeholder="Email Address">
+              </div>
+            </div>
 
-								<input type="email" name="EMAIL"
-								       class="form-control form-control-lg rgba-white-light white-text border-0 z-depth-0"
-								       placeholder="Email">
-							</div>
-						</div>
+            <div class="col-md-2 mr-auto">
+              <button class="btn btn-block" style="background-color: #EFC109; color: white;">Subscribe</button>
+            </div>
+          </div>
+        </form>
 
-
-						<div class="col-md-2 mr-auto">
-
-							<button class="btn btn-block botao-duvidas">Se inscrever</button>
-						</div>
-					</div>
-				</form>
 
 			</div>
 		</div>
