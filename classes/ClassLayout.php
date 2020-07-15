@@ -52,7 +52,7 @@ class ClassLayout
             <header>
 
         
-		        <nav class='navbar fixed-top navbar-expand-lg  navbar-light' id='dynamic-navbar'>
+		        <nav class='navbar fixed-top navbar-expand-lg navbar-light' id='dynamic-navbar'>
 
                 <div class='container container-navbar'>
                     <a class='navbar-brand' href='#'>
